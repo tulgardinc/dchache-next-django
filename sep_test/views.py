@@ -7,7 +7,9 @@ import requests
 import xml.etree.ElementTree as ET
 import os
 
-import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 URL = "https://webdav.grid.surfsara.nl:2880"
 
