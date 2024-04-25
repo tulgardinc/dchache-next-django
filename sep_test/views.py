@@ -5,10 +5,13 @@ from rest_framework.response import Response
 from rest_framework import status
 import requests
 import xml.etree.ElementTree as ET
+import os
 
 import json
 
 URL = "https://webdav.grid.surfsara.nl:2880"
+
+TOKEN = os.environ.get("TOKEN")
 
 headers = {
     "Authorization": TOKEN,
