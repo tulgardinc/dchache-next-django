@@ -28,7 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-TOKEN = os.environ.get("TOKEN")
 
 
 # Application definition
